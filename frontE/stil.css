@@ -1,0 +1,182 @@
+.kontejner
+{
+    display:flex;
+    flex-direction: row;
+    border:1px solid black;
+   
+   
+}
+.divForma
+{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 250px;
+    border:1px solid black;
+   
+  
+
+}
+.formUcenik
+{
+    display:flex;
+    flex-direction: column;
+   
+    margin:1px;
+    background-color: lightblue;
+   
+}
+
+.formPles
+{
+    display:flex;
+    flex-direction: column;
+   background-color: lightcyan;
+    margin:1px;
+}
+
+.labUnosNaslov
+{
+    text-align: center;
+;
+}
+
+.dugmeDodajPles
+{
+    margin-top: 7px;
+    margin-bottom: 5px;;
+
+}
+.plesMiniKontejner
+{
+    display: flex;
+    flex-direction: row;
+     margin-bottom: 7px;
+    flex-grow:1 ;
+}
+.divUcenici
+{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    flex-grow: 1;
+      
+  
+    
+
+}
+.miniKontejnerUcenik
+{
+    display: flex;
+   
+    flex-direction: column;
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 60px;
+    text-align: center;
+    background-color:lightgray;
+    
+   
+}
+
+.divPlesCrtanje
+{
+    display: flex;
+    flex-direction: column;
+   
+   
+    flex-grow: 1;
+}
+.nazivSKoleH
+{
+    text-align: center;
+}
+.inputImeUcenika,.inputPrezimeUcenika,.inputEmailUcenika,.lab,.inpOznakaPlesa,.inpNazivPlesa,.inpMaxBrucenikaZaPles,.inpTrBrucenikaZaPles
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+}
+    
+.dugmeDodajPles,.dugmeDodajUcenika
+{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+   
+
+
+}
+.LabTrBrMax
+{
+    
+    width:40px;
+    text-align: center;
+}
+.labNazivPlesa
+{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    text-align: center;
+    
+    width:70px;
+
+  
+
+}
+
+.divIzmenaBrisanjeUcenika
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 10px;
+    margin-left: 2px;
+
+    border: 2px  outset;
+    
+    
+}
+.dugmeObrisiUcenika,.dugmeIzmeniUcenika,.selectUcenik,.dugmePrikaziUcenika
+{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+
+}
+.labelaIzmenaBrisanje
+{
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+.UnosPlesaH
+{
+    text-align: center;
+  
+}
+.divDugmeta
+{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.inputIdUcenika
+{
+    display: none;
+
+}
+.ucLabIme,.ucLabPrezime
+{
+    max-width: 50px;
+    text-align: center;
+    
+    
+}
